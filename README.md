@@ -16,17 +16,19 @@ in terminal:
 . git config --global user.email 'a0932111445@gmail.com'
 . git init
 
-#Common Used Instruction
+# Common Used Instruction
 . git status
 . git log --oneline
 
-#Track File and Folder
+# Track File and Folder
 create a new README.md file, ctrl+s
 . git add[full file name]
 . git add *.file_sub_name
-. git add.
+. git add .
 . git commit -m 'message'
 
-#Supplementary: others instruction of modify file
+# Supplementary: others instruction of modify file
 . git reset --soft HEAD~
 . git reset --hard[version.number]--[filename]
+
+# DB Browser for SQlite
